@@ -10,12 +10,13 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 class Home extends React.Component {
     constructor(props, context) {
         super(props, context);
+        // 当前的props、state和接下来的props、state如果相同，返回false，不进行更新
         this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
     }
     render() {
         return (
             <div>
-                home
+                <h1>home</h1>
             </div>
         )
     }

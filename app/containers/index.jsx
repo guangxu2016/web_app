@@ -6,6 +6,8 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 // import { CITYNAME } from '../config/localStoreKey'
 // import * as userInfoActionsFromOtherFile from '../actions/userinfo'
 
+import "./index.css";
+
 class App extends React.Component {
     constructor(props, context) {
         super(props, context);
@@ -14,18 +16,24 @@ class App extends React.Component {
             initDone: false
         }
     }
+    componentDidMount() {
+        var that = this
+        setTimeout(function () {
+            that.setState({
+                initDone:true
+            })
+        },1000)
+    }
     render() {
         return (
             <div>
                 {
-                     this.props.children
-
+                    this.state.initDone
+                    ? this.props.children
+                        : <div className="load">加载中......</div>
                 }
             </div>
         )
     }
-
-
-
 }
 export default App
