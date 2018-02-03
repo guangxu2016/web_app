@@ -47,7 +47,7 @@
     "react-router": "^2.7.0",
     "react-swipe": "^5.0.5",
     "redux": "^3.5.2",
-    "swipe-js-iso": "^2.0.3",
-    "whatwg-fetch": "^1.0.0"
+    "swipe-js-iso": "^2.0.4",
+    "whatwg-fetch": "^1.1.1"
   }
 }
