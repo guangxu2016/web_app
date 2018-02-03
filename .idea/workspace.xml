@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="829bfcc1-fe7a-47a6-bcb6-f6964f099158" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/components/Category/category.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/components/Category/index.jsx" afterPath="$PROJECT_DIR$/app/components/Category/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/app/containers/Home/index.jsx" afterPath="$PROJECT_DIR$/app/containers/Home/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/Category/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="1440">
+              <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -59,7 +58,17 @@
       <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/Category/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5132">
+            <state relative-caret-position="-6840">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/components/Category/category.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -113,6 +122,7 @@
         <option value="$PROJECT_DIR$/app/components/index.css" />
         <option value="$PROJECT_DIR$/app/containers/Home/index.jsx" />
         <option value="$PROJECT_DIR$/app/components/Category/index.jsx" />
+        <option value="$PROJECT_DIR$/app/components/Category/category.css" />
       </list>
     </option>
   </component>
@@ -128,8 +138,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1018" />
-    <option name="y" value="22" />
+    <option name="x" value="1033" />
+    <option name="y" value="24" />
     <option name="width" value="877" />
     <option name="height" value="972" />
   </component>
@@ -279,7 +289,7 @@
       <option name="presentableId" value="Default" />
       <updated>1517565100408</updated>
       <workItem from="1517565105316" duration="630000" />
-      <workItem from="1517565820448" duration="21330000" />
+      <workItem from="1517565820448" duration="23471000" />
     </task>
     <task id="LOCAL-00001" summary="部分">
       <created>1517565227987</created>
@@ -344,16 +354,23 @@
       <option name="project" value="LOCAL" />
       <updated>1517635884772</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="简单轮播图">
+      <created>1517638416731</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1517638416731</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21960000" />
+    <option name="totallyTimeSpent" value="24101000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1018" y="22" width="877" height="972" extended-state="0" />
+    <frame x="1033" y="24" width="877" height="972" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16486162" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4404332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25609756" sideWeight="0.5130344" order="7" side_tool="true" content_ui="tabs" />
@@ -387,7 +404,8 @@
     <MESSAGE value="把城市放到redux" />
     <MESSAGE value="基本样式实现" />
     <MESSAGE value="homeheader完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="homeheader完成" />
+    <MESSAGE value="简单轮播图" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单轮播图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -571,14 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/Category/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5132">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/containers/Home/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -592,11 +602,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/Category/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="1440">
+          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Category/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6840">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Category/category.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

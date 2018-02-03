@@ -17,14 +17,26 @@ class Category extends React.Component {
             index: 0
         }
     }
-    render() {
 
+    render() {
+        var opt = {
+            auto:2000,
+            callback:function(index){
+                // console.log(index)
+                this.setState({index:index})
+            }.bind(this)
+        }
         return (
-            <ReactSwipe className="carousel" swipeOptions={{continuous: false}}>
-                <div>PANE 1</div>
-                <div>PANE 2</div>
-                <div>PANE 3</div>
-            </ReactSwipe>
+            <div>
+                <ReactSwipe className="carousel" swipeOptions={opt}>
+                    <div>PANE 1</div>
+                    <div>PANE 2</div>
+                    <div>PANE 3</div>
+                </ReactSwipe>
+                <div>
+                    {this.state.index}
+                </div>
+            </div>
 
         )
     }
