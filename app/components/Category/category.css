@@ -8,7 +8,6 @@
 }
 .carousel-item ul li {
     display: block;
-    list-style: none;
     width: 20%;
     background-repeat: no-repeat;
     background-size: 50px auto;
@@ -124,7 +123,7 @@ li.quanbufenlei {
 }
 
 .index-container ul li {
-    list-style: none;
+    /*list-style: none;*/
     display: inline-block;
     height: 8px;
     width: 8px;

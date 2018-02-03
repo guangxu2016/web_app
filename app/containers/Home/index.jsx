@@ -7,7 +7,7 @@ import HomeHeader from '../../components/HomeHeader/index'
 // import * as userInfoActionsFromOtherFile from "../../actions/userinfo";
 // import {bindActionCreators} from "redux/index";
 import Category from '../../components/Category/index'
-// import Ad from './subpage/Ad'
+import Ad from './subpage/Ad'
 // import List from './subpage/List'
 
 class Home extends React.Component {
@@ -22,6 +22,8 @@ class Home extends React.Component {
             <div>
                 <HomeHeader cityName={this.props.userinfo.cityName}/>
                 <Category />
+                {/*<div style={{height:"15px"}}></div>*/}
+                <Ad  />
             </div>
         )
     }
