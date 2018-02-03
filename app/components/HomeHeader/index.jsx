@@ -14,7 +14,7 @@ class HomeHeader extends React.Component {
             <div id="home-header" className="clear-fix">
                 {/*头 左边部分*/}
                 <div className="left top">
-                    <span>北京</span>&nbsp;
+                    <span>{this.props.cityName}</span>&nbsp;
                     <i className="icon-angle-down"></i>
                 </div>
                 {/*头 中间部分*/}
