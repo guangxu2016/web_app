@@ -1,10 +1,10 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
-// import { bindActionCreators } from 'redux'
-// import { connect } from 'react-redux'
-// import LocalStore from '../util/localStore'
-// import { CITYNAME } from '../config/localStoreKey'
-// import * as userInfoActionsFromOtherFile from '../actions/userinfo'
+import { bindActionCreators } from 'redux'
+import { connect } from 'react-redux'
+import LocalStore from '../util/localStore'
+import { CITYNAME } from '../config/localStoreKey'
+import * as userInfoActionsFromOtherFile from '../actions/userinfo'
 
 import "./index.css";
 
@@ -17,6 +17,17 @@ class App extends React.Component {
         }
     }
     componentDidMount() {
+
+        let cityName = LocalStore.getItem(CITYNAME)
+        if(cityName == null) {
+            cityName = "北京"
+        }
+
+        this.props.userInfoActions.update({
+            cityName:cityName
+        })
+
+
         var that = this
         setTimeout(function () {
             that.setState({
@@ -36,4 +47,19 @@ class App extends React.Component {
         )
     }
 }
-export default App
+function mapStateToProps(state) {
+    return {
+
+    }
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        userInfoActions: bindActionCreators(userInfoActionsFromOtherFile,dispatch)
+    }
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(App)
