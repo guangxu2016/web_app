@@ -26,6 +26,7 @@ class List extends React.Component {
     firstPageData() {
         //获取首屏数据
         const cityName = this.props.cityName;
+        //城市 页码
         const result = getListData(cityName, 0)
         // console.log(result)
         this.resultHandle(result)
