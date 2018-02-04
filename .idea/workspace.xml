@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="829bfcc1-fe7a-47a6-bcb6-f6964f099158" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/containers/Home/subpage/list.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/components/HomeAd/homead.css" afterPath="$PROJECT_DIR$/app/components/HomeAd/homead.css" />
-      <change beforePath="$PROJECT_DIR$/app/components/HomeAd/index.jsx" afterPath="$PROJECT_DIR$/app/components/HomeAd/index.jsx" />
+      <change beforePath="$PROJECT_DIR$/app/containers/Home/index.jsx" afterPath="$PROJECT_DIR$/app/containers/Home/index.jsx" />
+      <change beforePath="$PROJECT_DIR$/app/containers/Home/subpage/List.jsx" afterPath="$PROJECT_DIR$/app/containers/Home/subpage/List.jsx" />
+      <change beforePath="$PROJECT_DIR$/app/containers/Home/subpage/style.less" afterPath="$PROJECT_DIR$/app/containers/Home/subpage/style.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,23 +20,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Ad.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/containers/Home/subpage/Ad.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/HomeAd/index.jsx">
+        <entry file="file://$PROJECT_DIR$/app/containers/Home/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="435">
+              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#355#409#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/containers/Home/subpage/List.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1248">
+              <caret line="54" column="43" lean-forward="false" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -42,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homead.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/components/HomeAd/homead.css">
+      <file leaf-file-name="list.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/containers/Home/subpage/list.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="120">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -83,10 +86,13 @@
         <option value="$PROJECT_DIR$/app/components/Category/style.less" />
         <option value="$PROJECT_DIR$/app/components/Category/category.css" />
         <option value="$PROJECT_DIR$/app/components/Category/index.jsx" />
-        <option value="$PROJECT_DIR$/app/containers/Home/index.jsx" />
         <option value="$PROJECT_DIR$/app/containers/Home/subpage/Ad.jsx" />
         <option value="$PROJECT_DIR$/app/components/HomeAd/index.jsx" />
         <option value="$PROJECT_DIR$/app/components/HomeAd/homead.css" />
+        <option value="$PROJECT_DIR$/app/containers/Home/index.jsx" />
+        <option value="$PROJECT_DIR$/app/containers/Home/subpage/style.less" />
+        <option value="$PROJECT_DIR$/app/containers/Home/subpage/list.css" />
+        <option value="$PROJECT_DIR$/app/containers/Home/subpage/List.jsx" />
       </list>
     </option>
   </component>
@@ -102,10 +108,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="945" />
-    <option name="y" value="34" />
-    <option name="width" value="975" />
-    <option name="height" value="954" />
+    <option name="x" value="1008" />
+    <option name="y" value="36" />
+    <option name="width" value="912" />
+    <option name="height" value="952" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -143,6 +149,13 @@
               <item name="web_app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Category" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web_app" type="b2602c69:ProjectViewProjectNode" />
@@ -229,7 +242,7 @@
       <updated>1517565100408</updated>
       <workItem from="1517565105316" duration="630000" />
       <workItem from="1517565820448" duration="30746000" />
-      <workItem from="1517662802687" duration="7006000" />
+      <workItem from="1517662802687" duration="10615000" />
     </task>
     <task id="LOCAL-00001" summary="部分">
       <created>1517565227987</created>
@@ -322,16 +335,23 @@
       <option name="project" value="LOCAL" />
       <updated>1517667719277</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="特惠完成">
+      <created>1517704722614</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1517704722614</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38382000" />
+    <option name="totallyTimeSpent" value="41991000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="945" y="34" width="975" height="954" extended-state="0" />
+    <frame x="1008" y="36" width="912" height="952" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.55005383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5496536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24010217" sideWeight="0.51776105" order="7" side_tool="true" content_ui="tabs" />
@@ -339,7 +359,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24010217" sideWeight="0.48223898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23943663" sideWeight="0.48223898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -368,7 +388,8 @@
     <MESSAGE value="简单轮播图" />
     <MESSAGE value="轮播完成" />
     <MESSAGE value="特惠" />
-    <option name="LAST_COMMIT_MESSAGE" value="特惠" />
+    <MESSAGE value="特惠完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="特惠完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -609,36 +630,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/containers/Home/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="e#355#409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/fetch/home/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/Category/category.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="114" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="114" />
           <folding />
         </state>
       </provider>
@@ -653,21 +648,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/HomeAd/homead.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/Home/subpage/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/Home/subpage/list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/HomeAd/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="660">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/HomeAd/homead.css">
+    <entry file="file://$PROJECT_DIR$/app/components/Category/category.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="277">
+          <caret line="24" column="114" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="114" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/Home/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#355#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/fetch/home/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="80" lean-forward="true" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/Home/subpage/List.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="54" column="43" lean-forward="false" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

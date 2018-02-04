@@ -1,11 +1,11 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
-import { getListData } from '../../../fetch/home/home'
+import {getListData} from '../../../fetch/home/home'
 
-import ListCompoent from '../../../components/List'
-import LoadMore from '../../../components/LoadMore'
+// import ListCompoent from '../../../components/List'
+// import LoadMore from '../../../components/LoadMore'
 
-import './style.less'
+import "./list.css";
 
 class List extends React.Component {
     constructor(props, context) {
@@ -18,69 +18,45 @@ class List extends React.Component {
             page: 0
         }
     }
-    render() {
-        return (
-            <div>
-                <h2 className="home-list-title">猜你喜欢</h2>
-                {
-                    this.state.data.length
-                    ? <ListCompoent data={this.state.data}/>
-                    : <div>{/* 加载中... */}</div>
-                }
-                {
-                    this.state.hasMore
-                    ? <LoadMore isLoadingMore={this.state.isLoadingMore} loadMoreFn={this.loadMoreData.bind(this)}/>
-                    : ''
-                }
-            </div>
-        )
-    }
+
     componentDidMount() {
-        // 获取首页数据
-        this.loadFirstPageData()
+        this.firstPageData()
     }
-    // 获取首页数据
-    loadFirstPageData() {
-        const cityName = this.props.cityName
+
+    firstPageData() {
+        //获取首屏数据
+        const cityName = this.props.cityName;
         const result = getListData(cityName, 0)
+        // console.log(result)
         this.resultHandle(result)
     }
-    // 加载更多数据
-    loadMoreData() {
-        // 记录状态
-        this.setState({
-            isLoadingMore: true
-        })
-
-        const cityName = this.props.cityName
-        const page = this.state.page
-        const result = getListData(cityName, page)
-        this.resultHandle(result)
-
-        // 增加 page 技术
-        this.setState({
-            page: page + 1,
-            isLoadingMore: false
-        })
-    }
-    // 处理数据
+    //数据处理
     resultHandle(result) {
-        result.then(res => {
+        result.then(res=>{
             return res.json()
-        }).then(json => {
+        }).then(json=>{
+            // console.log(json)
             const hasMore = json.hasMore
             const data = json.data
 
             this.setState({
-                hasMore: hasMore,
-                // 注意，这里讲最新获取的数据，拼接到原数据之后，使用 concat 函数
-                data: this.state.data.concat(data)
+                hasMore:hasMore,
+                data:data
             })
-        }).catch(ex => {
-            if (__DEV__) {
-                console.error('首页”猜你喜欢“获取数据报错, ', ex.message)
-            }
         })
+    }
+
+    render() {
+        return (
+            <div>
+                <h2 className="home-list-title">猜你喜欢{this.props.cityName}</h2>
+                <div>
+                    {this.state.hasMore.toString()}
+                    {this.state.data.length}
+                </div>
+
+            </div>
+        )
     }
 }
 
