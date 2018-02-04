@@ -3,7 +3,7 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 import {getListData} from '../../../fetch/home/home'
 
 import ListCompoent from '../../../components/List'
-// import LoadMore from '../../../components/LoadMore'
+import LoadMore from '../../../components/LoadMore'
 
 import "./list.css";
 
@@ -12,10 +12,10 @@ class List extends React.Component {
         super(props, context);
         this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
         this.state = {
-            data: [],
-            hasMore: false,
-            isLoadingMore: false,
-            page: 0
+            data: [],//存储列表信息
+            hasMore: false,//记录当前状态下，还有没有更多的数据可供加载
+            isLoadingMore: false,///记录当前状态下，是"加载中。。"还是"点击加载更多"
+            page: 1 //下一页的页码
         }
     }
 
@@ -26,10 +26,29 @@ class List extends React.Component {
     firstPageData() {
         //获取首屏数据
         const cityName = this.props.cityName;
-        //城市 页码
+
         const result = getListData(cityName, 0)
         // console.log(result)
         this.resultHandle(result)
+    }
+    //加载更多数据
+    loadMoreData() {
+        this.setState({
+            isLoadingMore:true
+        })
+        const cityName = this.props.cityName
+        const page = this.state.page
+        const result = getListData(cityName,page)
+        this.resultHandle(result)
+
+    //    增加page计数
+        this.setState({
+            page:page+1,
+            isLoadingMore:false
+        })
+
+
+
     }
     //数据处理
     resultHandle(result) {
@@ -39,10 +58,10 @@ class List extends React.Component {
             // console.log(json)
             const hasMore = json.hasMore
             const data = json.data
-
+            //存储
             this.setState({
                 hasMore:hasMore,
-                data:data
+                data:this.state.data.concat(data)
             })
         })
     }
@@ -56,6 +75,10 @@ class List extends React.Component {
                 : <div>加载中...</div>
                 }
 
+                {this.state.hasMore
+                 ? <LoadMore isLoadingMore={this.state.isLoadingMore} loadMoreFn={this.loadMoreData.bind(this)} />
+                 : ""
+                }
 
             </div>
         )
