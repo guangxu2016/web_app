@@ -77,7 +77,7 @@ class List extends React.Component {
 
                 {this.state.hasMore
                  ? <LoadMore isLoadingMore={this.state.isLoadingMore} loadMoreFn={this.loadMoreData.bind(this)} />
-                 : ""
+                 : "没有更多了"
                 }
 
             </div>

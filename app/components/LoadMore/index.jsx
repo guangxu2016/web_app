@@ -14,7 +14,8 @@ class LoadMore extends React.Component {
         //获取dom
         const wrapper = this.refs.wrapper
         // console.log(wrapper)
-        //节流
+        //节流        就是让一个函数无法再很短的时间内连续调用，只有当上一次函数执行后过了你规定的时间间隔，才能进行下一次改函数的调用
+        // 原理：用定时器。当触发一个事件时，先setTimeout让这个事件延迟一会再执行，吐过在这个事件间隔内又触发，那我们就clear掉原来的定时器，再settimeout一个新的定时器延迟一会执行
         let timeoutId
 
         function callback() {
@@ -35,9 +36,9 @@ class LoadMore extends React.Component {
                 return
             }
             // console.log(456)
-            //如果有清空
+
             if (timeoutId) {
-                //放置连续触发
+                //防止连续触发清空
                 clearTimeout(timeoutId)
             }
             //重新设置   100毫秒内不能触发第二次
