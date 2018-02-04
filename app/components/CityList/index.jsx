@@ -2,7 +2,7 @@ import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 
 import './style.less'
-
+//在 city引用
 class CityList extends React.Component {
     constructor(props, context) {
         super(props, context);
@@ -53,9 +53,11 @@ class CityList extends React.Component {
             </div>
         )
     }
-    clickHandle(cityName) {
+    clickHandle(newCity) {
+        //新的城市
+        // console.log(newCity)
         const changeFn = this.props.changeFn
-        changeFn(cityName)
+        changeFn(newCity)
     }
 }
 

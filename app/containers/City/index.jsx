@@ -8,9 +8,10 @@ import Header from '../../components/Header'
 import * as userInfoActionsFromOtherFile from "../../actions/userinfo";
 //选择城市
 import CurrentCity from '../../components/CurrentCity'
-// import CityList from '../../components/CityList'
-// import { CITYNAME } from '../../config/localStoreKey'
-// import localStore from '../../util/localStore'
+import CityList from '../../components/CityList'
+// localstorage
+import { CITYNAME } from '../../config/localStoreKey'
+import LocalStore from '../../util/localStore'
 
 class City extends React.Component {
     constructor(props, context) {
@@ -21,7 +22,21 @@ class City extends React.Component {
         console.log(this.props.userInfoActions)
         console.log(this.props.userinfo)
     }
+    changeCity(newCity) {
+       if(newCity == null) {
+           return
+       }
+        // 修改redux
+        const userinfo = this.props.userinfo
+        userinfo.cityName = newCity
+        this.props.userInfoActions.update(userinfo)
 
+        // 修改localstorage
+        LocalStore.setItem(CITYNAME,newCity)
+
+        // 跳转到首页
+        hashHistory.push("/")
+    }
     render() {
         console.log(this.props.userinfo)
         return (
@@ -29,6 +44,7 @@ class City extends React.Component {
                 <Header title="选择城市"/>
 
                 <CurrentCity cityName={this.props.userinfo.cityName}/>
+                <CityList changeFn={this.changeCity.bind(this)} />
             </div>
         )
     }
