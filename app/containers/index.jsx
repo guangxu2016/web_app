@@ -1,16 +1,10 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
-//是通过dispatch将action包裹起来，这样可以通过bindActionCreators创建的方法，直接调用dispatch(action)(隐式调用)
-//一般情况下，可以通过Provider将store通过React的context属性向下传递，bindActionCreators的唯一用处就是需要传递action creater到子组件，并且改子组件并没有接受上传递的store和dispatch
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import LocalStore from '../util/localStore'
 import { CITYNAME } from '../config/localStoreKey'
-import * as userInfoActionsFromOtherFile from '../actions/userinfo'
-
-import "./index.css";
-//头部
-// import HomeHeader from "../components/HomeHeader";
+import * as userInfoActionsFromOtherFile from '../actions/userinfo' 
 
 class App extends React.Component {
     constructor(props, context) {
@@ -20,49 +14,46 @@ class App extends React.Component {
             initDone: false
         }
     }
-    componentDidMount() {
-
-        let cityName = LocalStore.getItem(CITYNAME)
-        if(cityName == null) {
-            cityName = "北京"
-        }
-
-        this.props.userInfoActions.update({
-            cityName:cityName
-        })
-
-
-        var that = this
-        setTimeout(function () {
-            that.setState({
-                initDone:true
-            })
-        },1000)
-    }
     render() {
         return (
             <div>
                 {
                     this.state.initDone
                     ? this.props.children
-                        : <div className="load">加载中......</div>
+                    : <div>正在加载...</div>
                 }
             </div>
         )
     }
+    componentDidMount() {
+        // 获取位置信息
+        let cityName = LocalStore.getItem(CITYNAME)
+        if (cityName == null) {
+            cityName = '北京'
+        }
+        this.props.userInfoActions.update({
+            cityName: cityName
+        })
+
+        // 更改状态
+        this.setState({
+            initDone: true
+        })
+    }
 }
+
+// -------------------redux react 绑定--------------------
+
 function mapStateToProps(state) {
     return {
-
     }
 }
 
 function mapDispatchToProps(dispatch) {
     return {
-        userInfoActions: bindActionCreators(userInfoActionsFromOtherFile,dispatch)
+        userInfoActions: bindActionCreators(userInfoActionsFromOtherFile, dispatch),
     }
 }
-
 export default connect(
     mapStateToProps,
     mapDispatchToProps

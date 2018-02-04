@@ -3,6 +3,7 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 
 import './style.less'
 
+//在container home list 引入
 class LoadMore extends React.Component {
     constructor(props, context) {
         super(props, context);

@@ -1,28 +1,21 @@
-#home-adv {
+#home-ad {
     background-color: #fff;
-    width: 100%;
 }
-
-#home-adv h2 {
+h2 {
     font-size: 16px;
     font-weight: 700;
     padding: 10px 15px;
     border-bottom: 1px solid #f1f1f1;
 }
-
-#home-adv .ad-container {
+.ad-container {
     width: 100%;
+    padding: 10px 15px;
 }
-
-#home-adv .ad-item {
+.ad-item {
     width: 33.3%;
-    float: left;
     height: 140px;
-    text-align: center;
 }
-
-#home-adv .ad-item img {
+img {
     width: 100%;
     height: 100%;
 }
-
