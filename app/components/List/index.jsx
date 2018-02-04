@@ -1,24 +1,28 @@
-import React from 'react'
-import PureRenderMixin from 'react-addons-pure-render-mixin'
+import React from 'react';
+import PureRenderMixin from 'react-addons-pure-render-mixin';
 
-import Item from './Item'
+import ListItem from './Item';
 
-import './style.less'
+import './list.css';
 
-class List extends React.Component {
+class ListCompoent extends React.Component {
     constructor(props, context) {
         super(props, context);
         this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
     }
     render() {
+        const data = this.props.data
         return (
             <div className="list-container">
-                {this.props.data.map((item, index) => {
-                    return <Item key={index} data={item}/>
-                })}
+                {
+                    data.map((item,index)=>{
+                        return <ListItem key={index} data={item} />
+                    })
+                }
+
             </div>
         )
     }
 }
 
-export default List
+export default ListCompoent

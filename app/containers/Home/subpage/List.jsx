@@ -2,7 +2,7 @@ import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 import {getListData} from '../../../fetch/home/home'
 
-// import ListCompoent from '../../../components/List'
+import ListCompoent from '../../../components/List'
 // import LoadMore from '../../../components/LoadMore'
 
 import "./list.css";
@@ -50,10 +50,11 @@ class List extends React.Component {
         return (
             <div>
                 <h2 className="home-list-title">猜你喜欢{this.props.cityName}</h2>
-                <div>
-                    {this.state.hasMore.toString()}
-                    {this.state.data.length}
-                </div>
+                {this.state.data.length
+                ? <ListCompoent data={this.state.data} />
+                : <div>加载中...</div>
+                }
+
 
             </div>
         )
