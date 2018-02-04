@@ -3,7 +3,7 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 import { hashHistory } from 'react-router'
 
 import "./header.css"
-
+//在 city引用
 class Header extends React.Component {
     constructor(props, context) {
         super(props, context);
@@ -12,6 +12,7 @@ class Header extends React.Component {
     render() {
         return (
             <div id="common-header">
+                {/*返回按钮*/}
                 <span className="back-icon" onClick={this.clickHandle.bind(this)}>
                     <i className="icon-chevron-left"></i>
                 </span>
