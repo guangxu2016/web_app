@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="829bfcc1-fe7a-47a6-bcb6-f6964f099158" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/components/CurrentCity/index.jsx" afterPath="$PROJECT_DIR$/app/components/CurrentCity/index.jsx" />
+      <change beforePath="$PROJECT_DIR$/app/components/CurrentCity/style.less" afterPath="$PROJECT_DIR$/app/components/CurrentCity/style.css" />
       <change beforePath="$PROJECT_DIR$/app/components/Header/index.jsx" afterPath="$PROJECT_DIR$/app/components/Header/index.jsx" />
       <change beforePath="$PROJECT_DIR$/app/containers/City/index.jsx" afterPath="$PROJECT_DIR$/app/containers/City/index.jsx" />
     </list>
@@ -24,21 +26,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/containers/City/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-512">
-              <caret line="7" column="61" lean-forward="true" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-              <folding />
+            <state relative-caret-position="320">
+              <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/components/Header/index.jsx">
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/CurrentCity/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-288">
-              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="160">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="17" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -93,6 +97,8 @@
         <option value="$PROJECT_DIR$/app/components/HomeAd/index.jsx" />
         <option value="$PROJECT_DIR$/app/containers/index.jsx" />
         <option value="$PROJECT_DIR$/app/components/Header/index.jsx" />
+        <option value="$PROJECT_DIR$/app/components/CurrentCity/index.jsx" />
+        <option value="$PROJECT_DIR$/app/components/CurrentCity/style.css" />
         <option value="$PROJECT_DIR$/app/containers/City/index.jsx" />
       </list>
     </option>
@@ -109,9 +115,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="996" />
+    <option name="x" value="1007" />
     <option name="y" value="32" />
-    <option name="width" value="919" />
+    <option name="width" value="908" />
     <option name="height" value="982" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -150,6 +156,13 @@
               <item name="web_app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrentCity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web_app" type="b2602c69:ProjectViewProjectNode" />
@@ -225,7 +238,7 @@
       <workItem from="1517565820448" duration="30746000" />
       <workItem from="1517662802687" duration="25142000" />
       <workItem from="1517734018746" duration="3086000" />
-      <workItem from="1517740467316" duration="4284000" />
+      <workItem from="1517740467316" duration="8527000" />
     </task>
     <task id="LOCAL-00001" summary="部分">
       <created>1517565227987</created>
@@ -381,11 +394,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517742864903</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="完成城市头部">
+      <created>1517745857171</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1517745857171</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63888000" />
+    <option name="totallyTimeSpent" value="68131000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,9 +417,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="996" y="32" width="919" height="982" extended-state="0" />
+    <frame x="1007" y="32" width="908" height="982" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2703322" sideWeight="0.87217045" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26914153" sideWeight="0.87217045" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.49538106" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2645382" sideWeight="0.5332981" order="7" side_tool="true" content_ui="tabs" />
@@ -490,7 +510,8 @@
     <MESSAGE value="加载更多-&gt;下拉刷新" />
     <MESSAGE value="加载更多-&gt;下拉刷新完善" />
     <MESSAGE value="修改部分文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改部分文件" />
+    <MESSAGE value="完成城市头部" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成城市头部" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -499,20 +520,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.tmpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/containers/index.css" />
     <entry file="file://$PROJECT_DIR$/app/util/localStore.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -780,7 +787,7 @@
         <state relative-caret-position="768">
           <caret line="20" column="67" lean-forward="false" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -790,7 +797,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -843,18 +850,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/containers/City/index.jsx">
+    <entry file="file://$PROJECT_DIR$/app/components/Header/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-512">
-          <caret line="7" column="61" lean-forward="true" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+        <state relative-caret-position="270">
+          <caret line="15" column="69" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/CurrentCity/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/Header/index.jsx">
+    <entry file="file://$PROJECT_DIR$/app/components/CurrentCity/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="160">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/City/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>

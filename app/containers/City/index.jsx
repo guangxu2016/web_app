@@ -6,9 +6,9 @@ import { hashHistory } from 'react-router'
 
 import Header from '../../components/Header'
 import * as userInfoActionsFromOtherFile from "../../actions/userinfo";
-// import CurrentCity from '../../components/CurrentCity'
+//选择城市
+import CurrentCity from '../../components/CurrentCity'
 // import CityList from '../../components/CityList'
-
 // import { CITYNAME } from '../../config/localStoreKey'
 // import localStore from '../../util/localStore'
 
@@ -23,16 +23,20 @@ class City extends React.Component {
     }
 
     render() {
+        console.log(this.props.userinfo)
         return (
             <div>
                 <Header title="选择城市"/>
 
+                <CurrentCity cityName={this.props.userinfo.cityName}/>
             </div>
         )
     }
 }
 function mapStateToProps(state) {
+
     return {
+        userinfo:state.userinfo
     }
 }
 

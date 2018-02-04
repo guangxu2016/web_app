@@ -1,8 +1,8 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 
-import './style.less'
-
+import './style.css'
+//选择城市  在city引用
 class CurrentCity extends React.Component {
     constructor(props, context) {
         super(props, context);
