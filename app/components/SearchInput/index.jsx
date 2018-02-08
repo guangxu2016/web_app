@@ -39,7 +39,7 @@ class SearchInput extends React.Component {
         if (e.keyCode !== 13) {
             return
         }
-        this.props.enterHandle(e.target.value)
+        this.props.enterHandle(this.state.value)
     }
 }
 
