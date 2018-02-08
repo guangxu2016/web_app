@@ -14,6 +14,7 @@ class SearchHeader extends React.Component {
     render() {
         return (
             <div id="search-header" className="clear-fix">
+                {/*{this.props.keyword}*/}
                 <span className="back-icon float-left" onClick={this.clickHandle.bind(this)}>
                     <i className="icon-chevron-left"></i>
                 </span>
