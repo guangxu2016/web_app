@@ -42,17 +42,6 @@ class HomeHeader extends React.Component {
     enterHandle(value) {
         hashHistory.push("/search/all/" + encodeURIComponent(value))
     }
-    // ChangeHandle(e) {
-    //     var val = e.target.value
-    //     this.setState({
-    //         kwd:val
-    //     })
-    // }
-    // KeyUpHandle(e) {
-    //     if(e.keyCode !==13) {
-    //         return
-    //     }
-    //     hashHistory.push("/search/all/" + encodeURIComponent(this.state.kwd))
-    // }
+
 }
 export default HomeHeader

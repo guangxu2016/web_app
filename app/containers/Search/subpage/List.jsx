@@ -95,10 +95,12 @@ class SearchList extends React.Component {
     }
     // 处理重新搜索
     componentDidUpdate(prevProps, prevState) {
+        //获取当前
         const keyword = this.props.keyword
         const category = this.props.category
 
-        // 搜索条件完全相等时，忽略。重要！！！
+        // 当前的和上一个做对比
+        // 搜索条件完全相等时，忽略。   重要！！！
         if (keyword === prevProps.keyword && category === prevProps.category) {
             return
         }

@@ -11,17 +11,6 @@ class SearchInput extends React.Component {
             value: ''
         }
     }
-    render() {
-        return (
-            <input
-                className="search-input" 
-                type="text" 
-                placeholder="请输入关键字" 
-                onChange={this.ChangeHandle.bind(this)}
-                onKeyUp={this.KeyUpHandle.bind(this)}
-                value={this.state.value}/>
-        )
-    }
     componentDidMount() {
         // 默认值
         this.setState({
@@ -40,7 +29,20 @@ class SearchInput extends React.Component {
             return
         }
         this.props.enterHandle(this.state.value)
+
     }
+    render() {
+        return (
+            <input
+                className="search-input" 
+                type="text" 
+                placeholder="请输入关键字" 
+                onChange={this.ChangeHandle.bind(this)}
+                onKeyUp={this.KeyUpHandle.bind(this)}
+                value={this.state.value}/>
+        )
+    }
+
 }
 
 export default SearchInput
