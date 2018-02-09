@@ -4,7 +4,7 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 import Header from '../../components/Header'
 import Info from './subpage/Info'
 // import Buy from './subpage/buy'
-// import Comment from './subpage/Comment'
+import Comment from './subpage/Comment'
 
 class Detail extends React.Component {
     constructor(props, context) {
@@ -20,7 +20,7 @@ class Detail extends React.Component {
                 <Header title="商户详情" type="share"/>
                 <Info id={id}/>
                 {/*<Buy id={id}/>*/}
-                {/*<Comment id={id}/>*/}
+                <Comment id={id}/>
             </div>
         )
     }

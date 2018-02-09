@@ -42,6 +42,7 @@ class Comment extends React.Component {
     loadFirstPageData() {
         const id = this.props.id
         const result = getCommentData(0, id)
+        //处理数据
         this.resultHandle(result)
     }
     // 加载更多数据
@@ -56,7 +57,7 @@ class Comment extends React.Component {
         const result = getCommentData(page, id)
         this.resultHandle(result)
 
-        // 增加 page 技术
+        // 增加 page 技术,加载后的状态
         this.setState({
             isLoadingMore: false
         })
