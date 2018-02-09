@@ -13,7 +13,7 @@ class DetailInfo extends React.Component {
     render() {
         // 获取数据
         const data = this.props.data
-
+        console.log(data)
         return (
             <div id="detail-info-container">
                 <div className="info-container clear-fix">

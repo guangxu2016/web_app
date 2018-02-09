@@ -21,6 +21,7 @@ class Star extends React.Component {
         return (
             <div className="star-container">
                 {[1, 2, 3, 4, 5].map((item, index) => {
+                    //如果是1，判断1是否大于等于1，大于等于高亮，大于1灰色
                     const lightClass = star >= item ? ' light' : ''
                     return <i key={index} className={'icon-star' + lightClass} onClick={this.clickHandle.bind(this, item)}></i>
                 })}

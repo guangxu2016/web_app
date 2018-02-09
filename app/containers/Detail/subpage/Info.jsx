@@ -1,6 +1,6 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
-
+//获取信息数据
 import { getInfoData } from '../../../fetch/detail/detai'
 import DetailInfo from '../../../components/DetailInfo'
 
@@ -16,13 +16,26 @@ class Info extends React.Component {
         return (
             <div>
                 {
+                    // this.props.id        商品id
                     this.state.info
                     ? <DetailInfo data={this.state.info}/>
                     : ''
+
                 }
             </div>
         )
     }
+    // componentDidMount() {
+    //     const id = this.props.id
+    //     const result = getInfoData(id)
+    //     result.then(res=>{
+    //         return res.json()
+    //     }).then(json=>{
+    //         this.setState({
+    //             info:json
+    //         })
+    //     })
+    // }
     componentDidMount() {
         // 获取商户信息
         this.getInfo()
