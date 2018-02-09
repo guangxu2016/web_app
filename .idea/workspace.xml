@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="829bfcc1-fe7a-47a6-bcb6-f6964f099158" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/containers/Detail/index.jsx" afterPath="$PROJECT_DIR$/app/containers/Detail/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/app/containers/Detail/subpage/Comment.jsx" afterPath="$PROJECT_DIR$/app/containers/Detail/subpage/Comment.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,8 +37,8 @@
       <file leaf-file-name="Comment.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/containers/Detail/subpage/Comment.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-439">
-              <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+            <state relative-caret-position="518">
+              <caret line="86" column="13" lean-forward="true" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -284,7 +282,7 @@
       <workItem from="1517734018746" duration="3086000" />
       <workItem from="1517740467316" duration="15651000" />
       <workItem from="1517903264249" duration="3870000" />
-      <workItem from="1518078287432" duration="20572000" />
+      <workItem from="1518078287432" duration="21786000" />
     </task>
     <task id="LOCAL-00001" summary="部分">
       <created>1517565227987</created>
@@ -503,11 +501,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518179695673</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="详情页面部分">
+      <created>1518180845648</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1518180845648</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99697000" />
+    <option name="totallyTimeSpent" value="100911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -993,8 +998,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/containers/Detail/subpage/Comment.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-439">
-          <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+        <state relative-caret-position="518">
+          <caret line="86" column="13" lean-forward="true" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
