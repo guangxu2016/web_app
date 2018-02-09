@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="829bfcc1-fe7a-47a6-bcb6-f6964f099158" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/components/Login/index.jsx" afterPath="$PROJECT_DIR$/app/components/Login/index.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/containers/Detail/index.jsx">
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/containers/Login/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="344">
+              <caret line="51" column="27" lean-forward="false" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="27" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -34,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Comment.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/containers/Detail/subpage/Comment.jsx">
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/Login/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="86" column="13" lean-forward="true" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+            <state relative-caret-position="-44">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="20" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -88,7 +89,6 @@
         <option value="$PROJECT_DIR$/app/containers/Home/subpage/List.jsx" />
         <option value="$PROJECT_DIR$/app/router/routeMap.jsx" />
         <option value="$PROJECT_DIR$/app/containers/Home/index.jsx" />
-        <option value="$PROJECT_DIR$/app/containers/Login/index.jsx" />
         <option value="$PROJECT_DIR$/app/components/LoadMore/index.jsx" />
         <option value="$PROJECT_DIR$/app/components/Header/header.css" />
         <option value="$PROJECT_DIR$/app/components/HomeAd/homeAd.css" />
@@ -113,6 +113,8 @@
         <option value="$PROJECT_DIR$/app/containers/Detail/subpage/Info.jsx" />
         <option value="$PROJECT_DIR$/app/containers/Detail/index.jsx" />
         <option value="$PROJECT_DIR$/app/containers/Detail/subpage/Comment.jsx" />
+        <option value="$PROJECT_DIR$/app/components/Login/index.jsx" />
+        <option value="$PROJECT_DIR$/app/containers/Login/index.jsx" />
       </list>
     </option>
   </component>
@@ -174,29 +176,7 @@
               <item name="web_app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="CommentList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="CommentList" type="462c0819:PsiDirectoryNode" />
-              <item name="Item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="DetailInfo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web_app" type="b2602c69:ProjectViewProjectNode" />
@@ -209,28 +189,14 @@
               <item name="web_app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Detail" type="462c0819:PsiDirectoryNode" />
+              <item name="City" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="web_app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Detail" type="462c0819:PsiDirectoryNode" />
-              <item name="subpage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -282,7 +248,7 @@
       <workItem from="1517734018746" duration="3086000" />
       <workItem from="1517740467316" duration="15651000" />
       <workItem from="1517903264249" duration="3870000" />
-      <workItem from="1518078287432" duration="21786000" />
+      <workItem from="1518078287432" duration="24023000" />
     </task>
     <task id="LOCAL-00001" summary="部分">
       <created>1517565227987</created>
@@ -508,11 +474,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518180845648</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="详情页面完成">
+      <created>1518185198298</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1518185198298</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100911000" />
+    <option name="totallyTimeSpent" value="103148000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -623,7 +596,8 @@
     <MESSAGE value="search页面基本效果" />
     <MESSAGE value="search页面完成" />
     <MESSAGE value="详情页面部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="详情页面部分" />
+    <MESSAGE value="详情页面完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="详情页面完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -632,7 +606,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/components/index.css" />
     <entry file="file://$PROJECT_DIR$/app/containers/Home/subpage/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -683,13 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/containers/Login/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -789,18 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/containers/City/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-            <element signature="e#336#390#0" expanded="false" />
-            <element signature="e#456#509#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/SearchHeader/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -833,40 +787,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/containers/Home/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/Header/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/HomeHeader/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/SearchInput/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -907,14 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/router/routeMap.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/containers/Search/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -930,7 +848,7 @@
         <state relative-caret-position="182">
           <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -940,7 +858,7 @@
         <state relative-caret-position="442">
           <caret line="35" column="15" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="15" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -950,8 +868,8 @@
         <state relative-caret-position="783">
           <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#96#153#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
+            <element signature="e#96#153#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -961,7 +879,7 @@
         <state relative-caret-position="632">
           <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -981,7 +899,7 @@
         <state relative-caret-position="-297">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -991,7 +909,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1000,6 +918,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
           <caret line="86" column="13" lean-forward="true" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router/routeMap.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="22" column="70" lean-forward="true" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/HomeHeader/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Header/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/Home/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Login/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/City/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="47" column="18" lean-forward="true" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/Login/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="51" column="27" lean-forward="false" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="27" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>

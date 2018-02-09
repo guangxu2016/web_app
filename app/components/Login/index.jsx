@@ -3,7 +3,7 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 
 import './style.less'
 
-class Login extends React.Component {
+class LoginComponent extends React.Component {
     constructor(props, context) {
         super(props, context);
         this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
@@ -44,4 +44,4 @@ class Login extends React.Component {
     }
 }
 
-export default Login
+export default LoginComponent
