@@ -8,7 +8,7 @@ class LoginComponent extends React.Component {
         super(props, context);
         this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
         this.state = {
-            username: ''
+            phone: ''
         }
     }
     render() {
@@ -20,7 +20,7 @@ class LoginComponent extends React.Component {
                         type="text" 
                         placeholder="输入手机号" 
                         onChange={this.changeHandle.bind(this)} 
-                        value={this.state.username}
+                        value={this.state.phone}
                     />
                 </div>
                 <div className="input-container password-container">
@@ -34,14 +34,13 @@ class LoginComponent extends React.Component {
     }
     changeHandle(e) {
         this.setState({
-            username: e.target.value
+            phone: e.target.value
         })
     }
     clickHandle() {
-        const username = this.state.username
+        const phone = this.state.phone
         const loginHandle = this.props.loginHandle
-        loginHandle(username);
+        loginHandle(phone);
     }
 }
-
 export default LoginComponent
