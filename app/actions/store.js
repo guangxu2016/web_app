@@ -1,4 +1,4 @@
-import * as actionTypes from '../constants/store'
+import * as actionTypes from "../constants/store.js"
 
 export function update(data) {
     return {
@@ -8,15 +8,15 @@ export function update(data) {
 }
 
 export function add(item) {
-    return {
-        type: actionTypes.STORE_ADD,
-        data: item
-    }
+     return {
+         type: actionTypes.STORE_ADD,
+         data: item
+        }
 }
 
 export function rm(item) {
     return {
         type: actionTypes.STORE_RM,
         data: item
-    }
+        }
 }
