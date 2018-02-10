@@ -11,6 +11,8 @@ class LoginComponent extends React.Component {
             phone: ''
         }
     }
+
+
     render() {
         return (
             <div id="login-container">
@@ -38,9 +40,9 @@ class LoginComponent extends React.Component {
         })
     }
     clickHandle() {
-        const phone = this.state.phone
+        const userinfo = this.state.phone
         const loginHandle = this.props.loginHandle
-        loginHandle(phone);
+        loginHandle(userinfo);
     }
 }
 export default LoginComponent
