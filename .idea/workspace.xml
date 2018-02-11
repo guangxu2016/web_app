@@ -4,13 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/app/containers/Home/index.jsx" description="// import {bindActionCreators} from &quot;redux/index&quot;;" line="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="829bfcc1-fe7a-47a6-bcb6-f6964f099158" name="Default" comment="">
+    <list default="true" id="829bfcc1-fe7a-47a6-bcb6-f6964f099158" name="Default" comment="购买完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/actions/store.js" afterPath="$PROJECT_DIR$/app/actions/store.js" />
-      <change beforePath="$PROJECT_DIR$/app/components/BuyAndStore/index.jsx" afterPath="$PROJECT_DIR$/app/components/BuyAndStore/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/app/constants/store.js" afterPath="$PROJECT_DIR$/app/constants/store.js" />
       <change beforePath="$PROJECT_DIR$/app/containers/Detail/subpage/buy.jsx" afterPath="$PROJECT_DIR$/app/containers/Detail/subpage/buy.jsx" />
-      <change beforePath="$PROJECT_DIR$/app/reducers/store.js" afterPath="$PROJECT_DIR$/app/reducers/store.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,8 +36,8 @@
       <file leaf-file-name="buy.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/containers/Detail/subpage/buy.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="84" column="32" lean-forward="false" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
+            <state relative-caret-position="696">
+              <caret line="98" column="24" lean-forward="false" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -52,21 +48,11 @@
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/BuyAndStore/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="368">
+              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="store.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/actions/store.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -160,7 +146,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="987" />
     <option name="y" value="41" />
     <option name="width" value="941" />
@@ -265,7 +251,7 @@
       <workItem from="1517734018746" duration="3086000" />
       <workItem from="1517740467316" duration="15651000" />
       <workItem from="1517903264249" duration="3870000" />
-      <workItem from="1518078287432" duration="39106000" />
+      <workItem from="1518078287432" duration="40054000" />
     </task>
     <task id="LOCAL-00001" summary="部分">
       <created>1517565227987</created>
@@ -533,11 +519,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518262556880</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="购买完成">
+      <created>1518274069141</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1518274069141</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118231000" />
+    <option name="totallyTimeSpent" value="119179000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,9 +542,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="987" y="41" width="941" height="972" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21899441" sideWeight="0.87217045" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21881607" sideWeight="0.87217045" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.49538106" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34082398" sideWeight="0.5569476" order="7" side_tool="true" content_ui="tabs" />
@@ -604,7 +597,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="把城市放到redux" />
     <MESSAGE value="基本样式实现" />
     <MESSAGE value="homeheader完成" />
     <MESSAGE value="简单轮播图" />
@@ -629,7 +621,8 @@
     <MESSAGE value="login部分" />
     <MESSAGE value="login完成" />
     <MESSAGE value="购买部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="购买部分" />
+    <MESSAGE value="购买完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="购买完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -971,14 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/containers/Detail/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -986,14 +971,6 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/actions/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,20 +1010,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/actions/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/BuyAndStore/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="368">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/Detail/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/containers/Detail/subpage/buy.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="84" column="32" lean-forward="false" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
+        <state relative-caret-position="696">
+          <caret line="98" column="24" lean-forward="false" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
