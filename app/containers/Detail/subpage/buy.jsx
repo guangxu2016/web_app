@@ -96,7 +96,7 @@ class Buy extends React.Component {
         })
     }
 }
-//-----------------redux---------------------------
+//-----------------redux绑定---------------------------
 function mapStateToProps(state) {
     return {
         userinfo: state.userinfo,
