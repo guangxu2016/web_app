@@ -1,7 +1,7 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 
-import './style.less'
+import "./userinfo.css"
 
 class UserInfo extends React.Component {
     constructor(props, context) {

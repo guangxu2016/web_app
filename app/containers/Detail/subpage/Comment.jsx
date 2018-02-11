@@ -5,7 +5,7 @@ import { getCommentData } from '../../../fetch/detail/detai'
 import ListComponent from '../../../components/CommentList'
 import LoadMore from '../../../components/LoadMore'
 
-import './style.less'
+import './index.css'
 
 class Comment extends React.Component {
     constructor(props, context) {
