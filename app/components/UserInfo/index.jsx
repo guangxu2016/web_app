@@ -11,6 +11,8 @@ class UserInfo extends React.Component {
     render() {
         return (
             <div className="userinfo-container">
+               {/*<p>{this.props.username}</p>*/}
+               {/*<p>{this.props.city}</p>*/}
                 <p>
                     <i className="icon-user"></i>
                     &nbsp;
