@@ -44,26 +44,18 @@ class Item extends React.Component {
                     </div>
                 </div>
                 {
-                    this.state.commentState === 1
-                    ? <div>
-                            <textarea></textarea>
-                            <button>提价</button>
-                            <button onClick={this.hideComment.bind(this)}>取消</button>
-                        </div>
-                    : ""
-
                     // “评价中”才会显示输入框
-                    // this.state.commentState === 1
-                    // ? <div className="comment-text-container">
-                    //     <textarea style={{width: '100%', height: '80px'}} className="comment-text" ref="commentText"></textarea>
-                    //     <div style={{paddingTop: '10px', paddingBottom: '10px'}}>
-                    //         <Star star="0" clickCallback={this.starClickCallback.bind(this)}/>
-                    //     </div>
-                    //     <button className="btn" onClick={this.submitComment.bind(this)}>提交</button>
-                    //     &nbsp;
-                    //     <button className="btn unseleted-btn" onClick={this.hideComment.bind(this)}>取消</button>
-                    // </div>
-                    // : ''
+                    this.state.commentState === 1
+                    ? <div className="comment-text-container">
+                        <textarea style={{width: '100%', height: '80px'}} className="comment-text" ref="commentText"></textarea>
+                        <div style={{paddingTop: '10px', paddingBottom: '10px'}}>
+                            <Star star="0" clickCallback={this.starClickCallback.bind(this)}/>
+                        </div>
+                        <button className="btn" onClick={this.submitClickHandle.bind(this)}>提交</button>
+                        &nbsp;
+                        <button className="btn unseleted-btn" onClick={this.hideComment.bind(this)}>取消</button>
+                    </div>
+                    : ''
                 }
             </div>
         )
@@ -86,30 +78,27 @@ class Item extends React.Component {
             commentState: 0
         })
     }
-    submitComment() {
-        // 获取操作函数
+    submitClickHandle() {
+        //提交评论的函数
         const submitComment = this.props.submitComment
-        // 获取id
         const id = this.props.data.id
-        // 获取 star 数量
-        const stars = this.state.stars
-        const star = stars[id] || '0'
-        // 获取评价内容
-        const commentText = this.refs.commentText
-        const value = commentText.value.trim()
-        if (!value) {
+        //评论输入框
+        const commentTextDom = this.refs.commentText
+        //trim()是去掉字符串左边、右边的空格
+        const value = commentTextDom.value.trim()
+        if(!value) {
             return
         }
-
-        // 执行数据提交
-        submitComment(id, value, star, this.commentOk.bind(this))
+    //提交评论内容
+        submitComment(id, value, this.commentOk.bind(this))
     }
     commentOk() {
-        // 已经评价，修改状态
+        //已经评价，修改状态表
         this.setState({
             commentState: 2
         })
     }
+
 
     starClickCallback(star) {
         let stars = this.state.stars

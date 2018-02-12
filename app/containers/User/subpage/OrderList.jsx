@@ -22,8 +22,8 @@ class OrderList extends React.Component {
                 <h2>您的订单</h2>
                 {
                     this.state.data.length
-                    ? <OrderListComponent data={this.state.data} />
-                    : <div>没有</div>
+                        ? <OrderListComponent data={this.state.data} submitComment={this.submitComment.bind(this)}/>
+                        : <div>没有</div>
                 }
             </div>
         )
@@ -39,17 +39,32 @@ class OrderList extends React.Component {
 
     loadOrderList(username) {
         const result = getOrderListData(username)
-
         result.then(res => {
             return res.json()
         }).then(json => {
             // console.log(json)
             this.setState({
-                data:json
+                data: json
             })
+        }).catch(ex => {
+            if (__DEV__) {
+                console.error("用户主页'订单列表'获取数据报错, ", ex.message)
+            }
         })
     }
 
+//提交评价
+    submitComment(id, value, callback) {
+        const result = postComment(id, value)
+        result.then(res => {
+            return res.json()
+        }).then(json => {
+            if (json.errno === 0) {
+                //callback 到item页面
+                callback()
+            }
+        })
+    }
 
 }
 
