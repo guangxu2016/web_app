@@ -20,7 +20,7 @@ class User extends React.Component {
             <div>
                 <Header title="用户主页" backRouter="/"/>
                 <UserInfo username={userinfo.username} city={userinfo.cityName} />
-                {/*<OrderList username={userinfo.username}/>*/}
+                <OrderList username={userinfo.username}/>
             </div>
         )
     }

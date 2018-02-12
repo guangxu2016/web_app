@@ -17,7 +17,7 @@ class Item extends React.Component {
     }
     render() {
         const data = this.props.data
-
+        console.log(data)
         return (
             <div className="order-item-container">
                 <div className="clear-fix">
@@ -60,12 +60,12 @@ class Item extends React.Component {
             </div>
         )
     }
-    componentDidMount() {
-        // 将状态维护到 state 中
+   componentDidMount() {
+        //加载时。获取状态
         this.setState({
-            commentState: this.props.data.commentState
+            commentState:this.props.data.commentState
         })
-    }
+   }
     showComment() {
         // 显示输入框
         this.setState({
