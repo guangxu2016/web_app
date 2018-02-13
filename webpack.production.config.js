@@ -14,8 +14,7 @@ module.exports = {
       'react-router', 
       'redux', 
       'es6-promise', 
-      'whatwg-fetch', 
-      'immutable'
+      'whatwg-fetch'
     ]
   },
   output: {
