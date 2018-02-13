@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "start": "set NODE_ENV=dev && webpack-dev-server --progress --colors --hot --inline --content-base",
+    "start": "set NODE_ENV=dev && webpack-dev-server --progress --colors --hot --inline --content-base",
     "mock": "node --harmony ./mock/server.js",
     "build": "rd/s/q build && set NODE_ENV=production && webpack --config ./webpack.production.config.js --progress --colors"
   },
@@ -45,6 +45,7 @@
     "react-dom": "^15.3.1",
     "react-redux": "^4.4.5",
     "react-router": "^2.7.0",
+    "react-router-dom": "^4.2.2",
     "react-swipe": "^5.0.5",
     "redux": "^3.5.2",
     "swipe-js-iso": "^2.0.3",
