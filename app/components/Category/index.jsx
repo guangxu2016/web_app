@@ -20,9 +20,12 @@ class Category extends React.Component {
     render() {
         const opt = {
             auto: 2500,
+            //callback=>index是索引
             callback: function (index) {
                 // 更新当前轮播图的index
-                this.setState({index: index});
+                this.setState(
+                    {index: index}
+                    );
             }.bind(this)
         }
 
