@@ -57,7 +57,7 @@ class List extends React.Component {
         const result = getListData(cityName, page)
         this.resultHandle(result)
 
-        // 增加 page 技术
+        // 增加 page 计数
         this.setState({
             page: page + 1,
             isLoadingMore: false
