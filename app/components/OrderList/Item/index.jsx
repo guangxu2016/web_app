@@ -17,6 +17,7 @@ class Item extends React.Component {
     }
     render() {
         const data = this.props.data
+        //显示commentState状态
         console.log(data)
         return (
             <div className="order-item-container">
@@ -81,6 +82,7 @@ class Item extends React.Component {
     submitClickHandle() {
         //提交评论的函数
         const submitComment = this.props.submitComment
+        //当前评论的id
         const id = this.props.data.id
         //评论输入框
         const commentTextDom = this.refs.commentText

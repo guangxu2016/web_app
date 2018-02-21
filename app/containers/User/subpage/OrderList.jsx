@@ -53,7 +53,7 @@ class OrderList extends React.Component {
         })
     }
 
-//提交评价
+//提交评价  callback是提交之后回调的过程
     submitComment(id, value, callback) {
         const result = postComment(id, value)
         result.then(res => {
@@ -65,7 +65,6 @@ class OrderList extends React.Component {
             }
         })
     }
-
 }
 
 export default OrderList
