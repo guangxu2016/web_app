@@ -42,6 +42,7 @@ class Buy extends React.Component {
     componentDidMount() {
         // console.log(123,this.props.store)
         // console.log(456,this.props.storeActions)
+        //检验当前商户是否已经被收藏
         this.checkStoreState()
     }
 
@@ -56,6 +57,7 @@ class Buy extends React.Component {
                 this.setState({
                     isStore: true
                 })
+                //跳出循环
                 return true
             }
         })
@@ -83,6 +85,7 @@ class Buy extends React.Component {
 
         const id = this.props.id
         const storeActions = this.props.storeActions
+        // console.log(storeActions)
         if (this.state.isStore) {
             //当前被收藏，点击时取消收藏
             storeActions.rm({id: id})
